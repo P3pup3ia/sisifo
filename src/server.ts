@@ -5,7 +5,8 @@ const app = express()
 import employeeRoutes from './routes/employee-routes'
 
 
-app.use('/employee', employeeRoutes)
+
+
 
 app.get('/', (req,res)=>{
   res.json({mensage: 'Server is running'})
